@@ -59,6 +59,9 @@ function saving() {
         randomSuggestion.innerHTML = 'Pay attention to :' + " " + random;
         img2.style.display = 'block';
     }
+    if (total3 === 0) {
+        suggestion.innerHTML = 'You have nothing left, but you are not in negative!';
+    }
 }
 
 
