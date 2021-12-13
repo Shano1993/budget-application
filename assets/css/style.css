@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: 80%;
+    display: inline-block;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.line {
+    width: 80%;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.24);
+    margin-bottom: 1rem;
+}
+
+input[type=text] {
+    width: 18rem;
+    padding: 0.3rem;
+    text-align: center;
+    margin: 0.5rem 3rem;
+}
+
+#expenses {
+    border: 0.1rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    width: 100%
+}
+
+#fixed {
+    border: 0.1rem solid black;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#current {
+    border: 0.1rem solid black;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#occasional {
+    border: 0.1rem solid black;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.para {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+#recipes {
+    border: 0.1rem solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+#recipe {
+    border: 0.1rem solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#savings {
+    border: 0.1rem solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+#suggestion {
+    border: 0.1rem solid black;
+    width: 50%;
+}
+
+#suggest {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+

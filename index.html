@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Budget application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <h1>Budget application</h1>
+
+    <div id="container">
+
+        <div id="expenses">
+
+            <div id="fixed">
+
+                <div class="line">
+
+                    <h2>Fixed Expense</h2>
+                    <button id="total1" class="button">Total</button>
+
+                </div>
+
+                <label>
+                    <input type="text" placeholder="Rent and charge" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Credits" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Water, electricity and gas" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Phone and internet" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Home insurance" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Car insurance" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Mutual" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Care expenses" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Income tax" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Local taxes" class="allExpenses">
+                </label>
+
+            </div>
+
+            <div id="current">
+
+                <div class="line">
+
+                    <h2>Current Expense</h2>
+
+                </div>
+
+                <label>
+                    <input type="text" placeholder="Food" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Gasoline/Public transport" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Sporting and cultural activity" class="allExpenses">
+                </label>
+
+            </div>
+
+            <div id="occasional">
+
+                <div class="line">
+
+                    <h2>Occasional Expense</h2>
+
+                </div>
+
+                <label>
+                    <input type="text" placeholder="Outing" class="allExpenses">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Other expenses" class="allExpenses">
+                </label>
+
+            </div>
+
+            <div id="totalExp">
+
+                <p id="totalExpenses" class="para">Total of expenses : <span id="totalEx"></span></p>
+
+            </div>
+
+        </div>
+
+        <div id="recipes">
+
+            <div id="recipe">
+
+                <div class="line">
+
+                    <h2>Calculate recipes</h2>
+                    <button id="total2" class="button">Total</button>
+
+                </div>
+
+                <label>
+                    <input type="text" placeholder="Salary" class="allRecipe">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Help (allowances, etc...)" class="allRecipe">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Annuities" class="allRecipe">
+                </label>
+
+                <label>
+                    <input type="text" placeholder="Others" class="allRecipe">
+                </label>
+
+            </div>
+
+            <div id="totalRec">
+
+                <p id="totalRecipes" class="para">Total of Recipes : <span id="totalReci"></span></p>
+
+            </div>
+
+        </div>
+
+        <div id="savings">
+
+            <div class="line">
+
+                <h2>Savings Calculation</h2>
+                <button id="total3" class="button">Total</button>
+
+            </div>
+
+            <p class="para">Calculation between expenditure and income : <span id="saving"></span></p>
+
+        </div>
+
+        <div id="suggestion">
+
+            <div class="line">
+                <h2>Suggestion for your budget</h2>
+            </div>
+
+            <p id="suggest"></p>
+
+        </div>
+
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
