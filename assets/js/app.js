@@ -16,18 +16,20 @@ let arrayNegative = ['the outing !', 'the phone !', ' the internet !', 'a credit
 let img1 = document.getElementById('yes');
 let img2 = document.getElementById('no');
 
+//function to add the value of the inputs to an empty array (Expenses)
 function pushExpenses() {
     for (let i = 0; i < expenses.length; i++) {
         totalExpenses.push(parseFloat(expenses[i].value));
-        total1 += totalExpenses[i];
+        total1 += totalExpenses[i]; //calculate all the value in the array
         totalEx.innerHTML = total1 + " " + "Euros";
     }
 }
 
+//function to add the value of the inputs to an empty array (Recipes)
 function pushRecipes() {
     for (let i = 0; i < recipes.length; i++) {
         totalRecipes.push(parseFloat(recipes[i].value));
-        total2 += totalRecipes[i];
+        total2 += totalRecipes[i]; //calculate all the value in the array
         totalRec.innerHTML = total2 + " " + "Euros";
     }
 }
@@ -46,6 +48,9 @@ document.getElementById('total3').addEventListener("click", function () {
     saving();
 });
 
+
+
+//condition depending on the result of the final total
 function saving() {
     if (total3 > 0) {
         suggestion.innerHTML = 'Great ! You are positive.' ;
